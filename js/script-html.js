@@ -2,7 +2,7 @@ function renderLogin(){
     TITLE.innerHTML = "Página de Login";
     window.history.pushState("", "Página de Login", "/login");
     BODY.innerHTML=`<form onsubmit="requestLogin(event)" class="form-signin">
-        <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <img class="mb-4" src="Logo.png" alt="" width="72" height="72">
         
         <label for="inputEmail" class="sr-only">Usuário</label>
         <input type="text" id="inputEmail" class="form-control" placeholder="Usuário" required="" autofocus="">
