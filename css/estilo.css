@@ -1,0 +1,184 @@
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center!important;
+    position: relative;
+    top: calc(50vh - 193px);
+}
+
+.lblFile{
+    
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#loading{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    background: rgba(40,40,40,0.1);
+}
+
+#loading .spinner-border{
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    display: block;
+    top: calc(50vh - 35px);
+    position: relative;
+    color: #0c62be;
+    border: .5em solid currentColor;
+    border-right-color: transparent;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#menu{
+    background-color: #2e353d;
+    padding-left: 0;
+    width: 230px;
+}
+
+#menu li{
+    padding: 5px 0px;
+    padding-left: 15px;
+    border-left: 3px solid #2e353d;
+    border-bottom: 1px solid #23282e;
+    list-style: none;
+    cursor: pointer;
+}
+
+#scrollMenu{
+    width: 230px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #2e353d;
+    float: left;
+    position: fixed;
+}
+
+#menu li:hover{
+    border-left: 3px solid #d19b3d;
+    background-color: #4f5b69;
+}
+
+#menu li a{
+    color:white;
+}
+
+.btnCreate{
+    margin: 15px 0px;
+    margin-left: 7.5%;
+}
+
+.btnSair{
+    position: relative;
+    right: 10px;
+    top: 10px;
+    float: right;
+}
+
+.tabela{    
+    width: 90%;
+    left: 5%;
+    position: relative;
+}
+
+.tabelaModal{    
+    width: 100%;
+    position: relative;
+}
+
+#informUser{
+    color: white;
+    font-weight: bold;
+    background-color: #454d55;
+    padding: 20px 10px !important;
+}
+
+.filtro{
+    left: 5%;
+    position: relative;
+    width: 90%;
+    margin-bottom: 12px;
+}
+
+.filtroModal{
+    position: relative;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.modalOverflow{
+    overflow-x: auto;
+}
+
+#conteudo{
+    width: calc(100% - 230px);
+    float: right;
+    position: relative;
+    overflow: overlay;
+    height: 100vh;
+}
+
+.input-group {
+    float:left !important;
+}
+
+.group-salvar{
+    margin: auto;
+    text-align: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
